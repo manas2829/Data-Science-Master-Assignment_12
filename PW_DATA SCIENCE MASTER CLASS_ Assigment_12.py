@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Assignment_12-02-2023
+# # Assignment_13-02-2023
 
 # ## 1. Explain why we have to use the exception class while creating a custom exception.
 # 
@@ -54,7 +54,7 @@ except Exception as e:
 #     3.FloatingPointError, and others.
 # 
 
-# In[6]:
+# In[2]:
 
 
 ## ZeroDivisionError: This exception is raised when attempting to divide a number by zero.
@@ -65,7 +65,7 @@ except ZeroDivisionError:
     print("Division by Zero")
 
 
-# In[1]:
+# In[3]:
 
 
 """ OverflowError: This exception is raised when a calculation exceeds the maximum 
@@ -99,7 +99,7 @@ except OverflowError:
 #     1.Here are two examples of errors that are subclasses of LookupError:
 # 
 
-# In[6]:
+# In[5]:
 
 
 ## 1.KeyError: This exception is raised when a key is not found in a dictionary.
@@ -110,7 +110,7 @@ except KeyError:
     print("key not found")
 
 
-# In[8]:
+# In[6]:
 
 
 ## 2.IndexError: This exception is raised when trying to access an index that is out of range of a list or other sequence.
@@ -142,7 +142,7 @@ except IndexError:
 #     module not found errors.
 # 
 
-# In[9]:
+# In[7]:
 
 
 ## example of how ImportError can be raised:
